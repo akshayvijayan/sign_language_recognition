@@ -88,7 +88,7 @@
 {\centering     
 
 \large
-{\rm\bf Sign Language Recognition}\\
+{\rm\bf SIGN LANGUAGE RECOGNITION}\\
 
 \vspace{2cm}
 \normalsize {A PROJECT REPORT}\\
