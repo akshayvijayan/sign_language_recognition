@@ -27,7 +27,7 @@ expose all issues and associated risks, communicate all known issues are
 addressed in an appropriate matter before release. This test approach document
 describes the appropriate strategies, process, work flows and methodologies
 used to plan, organize, execute and manage testing of software project
-"Real-time Traffic Congestion Analyzer for Road Safety"
+"Sign Language Recognition"
 
 \newpage
 
@@ -40,19 +40,15 @@ used to plan, organize, execute and manage testing of software project
 Sl No & Procedures & Expected result & Actual result & Pass or Fail\\  
 \hline
 
-1 & Generate signature & Signature generated & Same as expected & Pass\\ 
+1 & Retraining of inception model & Bottleneck creation & Same as expected & Pass\\ 
 \hline
 
-2 & Verify signature & Signature verified & Same as expected & Pass\\
+2 & Inception label creation & Create labels & Same as expected & Pass\\
 \hline
 
-3 & Encrypt message & Message encrypted & Same as expected & Pass\\
+3 & Training the model & A fair accuracy & Same as expected & Pass\\
 \hline
 
-4 & Decrypt message & message decrypted & Same as expected & Pass\\
-\hline
-
-5 & Read configuration & Configuration read & Same as expected & pass \\
 \hline
  
 \end{tabular}}
@@ -68,16 +64,10 @@ Sl No & Procedures & Expected result & Actual result & Pass or Fail\\
 Sl No & Procedures & Expected result & Actual result & Pass or Fail\\  
 \hline
 
-1 & Client-Server pairing & Pairing works  & Same as expected & Pass\\ 
+1 & Build a model for prediction using images as input & Prediction with a fair accuracy  & Same as expected & Pass\\ 
 \hline
 
-2 & Web server start & Web server started & Same as expected & Pass\\
-\hline
-
-3 & Server send commands & Commands sent & Same as expected & Pass\\
-\hline
-
-3 & Client receives commands & Command received & Same as expected & Pass\\
+2 & Build a model for prediction using realtime video & Prediction with a fair accuracy & Same as expected & Pass\\
 \hline
 
 \end{tabular}}
@@ -95,10 +85,9 @@ Sl No & Procedures & Expected result & Actual result & Pass or Fail\\
 Sl No & Procedures & Expected result & Actual result & Pass or Fail\\  
 \hline
 
-1 & Server startup & Server starts  & Same as expected & Pass\\ 
+1 & Integrate image and video based prediction & Both prediction with a fair accuracy.  & Same as expected & Pass\\ 
 \hline
 
-2 & Client startup & Client starts & Same as expected & Pass\\
 \hline
 
 \end{tabular}}
